@@ -1,0 +1,58 @@
+:root {
+  --primary: #1e90ff;
+  --secondary: #4682b4;
+  --bg: #121212;
+  --card-bg: #1e1e1e;
+  --text: #ffffff;
+  --muted: #aaaaaa;
+  --font: "Inter", system-ui, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: var(--font);
+  font-size: 16px;
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--secondary);
+}
+
+button {
+  font-family: var(--font);
+  border-radius: 8px;
+  border: none;
+  padding: 10px 16px;
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--secondary);
+}
+
+input, textarea {
+  font-family: var(--font);
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background-color: #222;
+  color: var(--text);
+  width: 100%;
+}
